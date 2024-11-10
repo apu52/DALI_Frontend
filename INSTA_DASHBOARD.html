@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram-like Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+        <ul>
+            <li onclick="showPage('summary')" class="active"><span class="icon">📊</span>Summary</li>
+            <li onclick="showPage('likes')"><span class="icon">👍</span>Likes</li>
+            <li onclick="showPage('comments')"><span class="icon">💬</span>Comments</li>
+            <li onclick="showPage('views')"><span class="icon">👀</span>Views</li>
+            <li onclick="showPage('followers')"><span class="icon">👥</span>Followers</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <div class="navbar">
+            <input type="text" placeholder="Search...">
+            <div class="icons">
+                <span onclick="openNotifications()">🔔 <span id="notification-count">0</span></span>
+                <span onclick="openProfile()">👤</span>
+            </div>
+        </div>
+
+        <!-- Profile Modal -->
+        <div id="profile-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeProfile()">&times;</span>
+                <img src="profile.jpg" alt="Profile" class="profile-pic">
+                <h3 id="user-name">John Doe</h3>
+            </div>
+        </div>
+
+        <!-- Login Modal -->
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeLogin()">&times;</span>
+                <h2>Login</h2>
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button onclick="login()">Login</button>
+            </div>
+        </div>
+
+        <!-- Summary Page with Charts -->
+        <div id="summary" class="page active">
+            <h3>Summary of Engagement</h3>
+            <canvas id="engagementChart"></canvas>
+        </div>
+
+        <!-- Likes Page with Bar Chart -->
+        <div id="likes" class="page">
+            <h3>Likes Over Time</h3>
+            <canvas id="likesChart"></canvas>
+        </div>
+
+        <!-- Comments Page with Pie Chart -->
+        <div id="comments" class="page">
+            <h3>Comments Breakdown</h3>
+            <canvas id="commentsChart"></canvas>
+        </div>
+
+        <!-- Views Page with Line Chart -->
+        <div id="views" class="page">
+            <h3>Views Trend</h3>
+            <canvas id="viewsChart"></canvas>
+        </div>
+
+        <!-- Followers Page with Pie Chart -->
+        <div id="followers" class="page">
+            <h3>Followers by Region</h3>
+            <canvas id="followersChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
