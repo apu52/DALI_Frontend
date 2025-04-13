@@ -1,61 +1,49 @@
-# Deployed link : https://dali-frontend.vercel.app/
-
-# Prototype Video & Detailed Report :
-
-https://drive.google.com/drive/folders/1jD2H6_sU8bsnDKxPjgVDemnCWtaGiRep?usp=sharing
 
 
-# 🎨 DALI_Frontend
-**DALI_Frontend** is a web-based dashboard designed to provide insightful analytics and visualizations. It offers a user-friendly interface to monitor and analyze various metrics effectively
+# 📊 DALI Frontend
 
----
+Welcome to the **DALI (Data Analytics and Live Insights)** Frontend repository!  
+This project powers a sleek, intuitive dashboard that delivers **real-time insights**, **user analytics**, and **interactive visualizations** to support smart decision-making. 🚀
 
-## 🌐 Live Demo
-
-Experience the application live: [DALI_Frontend Live Demo](https://dali-frontend.vercel.app/)
+🌐 **Live Site**: [Visit DALI Frontend](https://dali-frontend.vercel.app/)  
+📁 **Prototype Video & Report**: [Google Drive Link](https://drive.google.com/drive/folders/1jD2H6_sU8bsnDKxPjgVDemnCWtaGiRep?usp=sharing)
 
 ---
 
-## 🚀 Features
+## 📚 Table of Contents
 
-- **📊 Interactive Dashboards*: Visualize data through dynamic and responsive chats.
-- **📈 Real-Time Analytic**: Monitor metrics with up-to-date informaion.
-- **🧩 Modular Desin**: Easily extendable components for scalablity.
-- **🎨 ResponsiveUI**: Optimized for various devices and screensizes.
-
----
-
-## 🛠️ TechStack
-
-| Technology | Description                          |
-|------------|--------------------------------------|
-| HTML5      | Markup language for structuring web content |
-| CSS3       | Styling language for designing web pages |
-| JavaScript | Programming language for interactivity |
-| Vercel     | Deployment platform for frontend applictions |
+- [✨ Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚀 Getting Started](#-getting-started)
+- [📁 Project Structure](#-project-structure)
+- [🖼️ Screenshots](#-screenshots)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📬 Contact](#-contact)
 
 ---
 
-## 📁 Project Stucture
+## ✨ Features
 
-
+Here’s what DALI brings to the table:
 
-```plaintext
-DALI_Frontend/
-├── index.html
-├── style.css
-├── script.js
-├── AD_page.html
-├── Dali_features.html
-├── Dashboard_summary.html
-├── Engagement.html
-├── INSTA_DASHBOARD.html
-├── dali-instagram-login.html
-├── LICENSE
-└── READMEmd
-```
+- 📈 **Interactive Dashboards** – Beautiful, dynamic charts and graphs to visualize your data.
+- 🔄 **Real-Time Analytics** – Get updates as they happen.
+- 🧠 **User Behavior Insights** – Analyze user engagement across platforms.
+- 🎛️ **Custom Widgets** – Tailor your dashboard with modular components.
+- 📊 **Instagram Data Integration** – Track key Instagram metrics.
+- 🖥️ **Multi-page Layout** – Organized, easy-to-navigate UI for various analytics views.
 
-
+---
+
+## 🛠️ Tech Stack
+
+| Tech        | Description                                 |
+|-------------|---------------------------------------------|
+| 🖥️ HTML5     | Markup for web page structure               |
+| 🎨 CSS3      | Styling the user interface                  |
+| 🧠 JavaScript | Adding interactivity and logic             |
+| 🚀 Vercel    | Deployment and hosting platform             |
 
 ---
 
@@ -63,32 +51,79 @@ DALI_Frontend/
 
 To run the project locally:
 
-1. **Clone the repository**:
+1. **Clone the Repository**
    ```bash
-   git clone https://github.com/apu52/DALI_Frontend.gt
+   git clone https://github.com/apu52/DALI_Frontend.git
    ```
-
 
-2. **Navigate to the project directory**:
+2. **Navigate into the directory**
    ```bash
-   cd DALI_Fronted
+   cd DALI_Frontend
    ```
-
 
-3. **Open `index.html` in your preferred web browser**.
+3. **Open `index.html` in your preferred browser**
+   > ✅ No additional setup needed – it's a static frontend project!
 
 ---
 
-## 👨‍💻 Cotributors
+## 📁 Project Structure
 
-| Name             | GitHub Profile                      |
-|------------------|-------------------------------------|
-| Arpan Chowdhury  | [apu52](https://github.com/apu52)   |
-| Sebanti2003      | [Sebanti2003](https://github.com/Seanti2003) |
+```bash
+DALI_Frontend/
+├── index.html                   # Landing Page
+├── style.css                    # Global Styling
+├── script.js                    # Frontend Interactivity
+├── AD_page.html                 # Ad Performance Analytics
+├── Dali_features.html           # DALI Feature Overview
+├── Dashboard_summary.html       # Summary Dashboard
+├── Engagement.html              # User Engagement Metrics
+├── INSTA_DASHBOARD.html         # Instagram Dashboard View
+├── dali-instagram-login.html   # Instagram Auth Page
+├── LICENSE                      # MIT License
+└── README.md                    # This File!
+```
 
 ---
 
-##📄 License
+## 🖼️ Screenshots
 
-This project is licensed under the [MIT Licene](LICENSE).
+![image](https://github.com/user-attachments/assets/d5995278-7e52-4314-ac23-4ce259b410ee)
+
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! 🙌
+
+To contribute:
+
+1. Fork this repository.
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add: Your message"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a Pull Request 🚀
+
+---
+
+## 📄 License
+
+📝 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+
+
+### 🚀 Made with 💙 to power smarter decisions through data!
+
+---
 
