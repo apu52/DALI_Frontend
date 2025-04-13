@@ -10,6 +10,14 @@ This project powers a sleek, intuitive dashboard that delivers **real-time insig
 
 ---
 
+# 📊 DALI Backend & Python Repos 
+
+- https://github.com/Sebanti2003/instacommentbot
+- https://github.com/Sebanti2003/fbcommentdash
+- https://github.com/swarnojit/Insta-Automation
+
+---
+
 ## 📚 Table of Contents
 
 - [✨ Features](#-features)
